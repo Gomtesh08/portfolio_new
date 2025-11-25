@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="stamp-shadow" x="0" y="0" width="200" height="200">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#stamp-shadow)">
+    <!-- Outer circle with dashed border -->
+    <circle cx="100" cy="100" r="80" stroke="#DC2626" stroke-width="6" fill="none" opacity="0.8" stroke-dasharray="8 4"/>
+    <!-- Inner circle -->
+    <circle cx="100" cy="100" r="65" stroke="#DC2626" stroke-width="4" fill="none" opacity="0.6"/>
+    <!-- VISA text -->
+    <text x="100" y="85" text-anchor="middle" fill="#DC2626" font-size="32" font-weight="bold" font-family="Arial, sans-serif">VISA</text>
+    <!-- APPROVED text -->
+    <text x="100" y="115" text-anchor="middle" fill="#DC2626" font-size="20" font-weight="600" font-family="Arial, sans-serif">APPROVED</text>
+    <!-- Date -->
+    <text x="100" y="135" text-anchor="middle" fill="#DC2626" font-size="12" font-family="Arial, sans-serif" opacity="0.7">2025</text>
+    <!-- Decorative stars -->
+    <path d="M 50 50 L 52 56 L 58 56 L 53 60 L 55 66 L 50 62 L 45 66 L 47 60 L 42 56 L 48 56 Z" fill="#DC2626" opacity="0.5"/>
+    <path d="M 150 50 L 152 56 L 158 56 L 153 60 L 155 66 L 150 62 L 145 66 L 147 60 L 142 56 L 148 56 Z" fill="#DC2626" opacity="0.5"/>
+    <path d="M 50 150 L 52 156 L 58 156 L 53 160 L 55 166 L 50 162 L 45 166 L 47 160 L 42 156 L 48 156 Z" fill="#DC2626" opacity="0.5"/>
+    <path d="M 150 150 L 152 156 L 158 156 L 153 160 L 155 166 L 150 162 L 145 166 L 147 160 L 142 156 L 148 156 Z" fill="#DC2626" opacity="0.5"/>
+  </g>
+</svg>
+

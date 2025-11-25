@@ -1,0 +1,15 @@
+{
+  "name": "gomtesh-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Gomtesh Kote",
+  "scripts": {
+    "install": "npm install --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  },
+  "keywords": ["portfolio", "react", "vite"],
+  "author": "Gomtesh Kote <gomteshkote08@gmail.com>",
+  "license": "MIT"
+}
+

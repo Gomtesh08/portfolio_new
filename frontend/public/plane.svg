@@ -1,0 +1,22 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="plane-shadow" x="0" y="0" width="200" height="200">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#plane-shadow)">
+    <!-- Plane body -->
+    <path d="M180 100 L140 90 L60 70 L40 75 L50 85 L60 90 L140 110 L180 100 Z" fill="#3B82F6" />
+    <path d="M60 70 L40 75 L30 65 L50 60 L60 70 Z" fill="#2563EB" />
+    <!-- Wings -->
+    <path d="M100 90 L80 60 L90 58 L110 88 L100 90 Z" fill="#60A5FA" />
+    <path d="M100 110 L80 140 L90 142 L110 112 L100 110 Z" fill="#60A5FA" />
+    <!-- Tail -->
+    <path d="M40 75 L30 50 L35 48 L45 73 L40 75 Z" fill="#93C5FD" />
+    <!-- Windows -->
+    <circle cx="120" cy="100" r="8" fill="#DBEAFE" opacity="0.8" />
+    <circle cx="140" cy="100" r="8" fill="#DBEAFE" opacity="0.8" />
+    <circle cx="160" cy="100" r="6" fill="#DBEAFE" opacity="0.8" />
+  </g>
+</svg>
+
